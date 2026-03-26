@@ -17,7 +17,7 @@ This project demonstrates a complete data science workflow using a University of
 
     Data Loading: Processed CSV file with pandas  
     Feature Engineering: created models with different sets of features to assess prediction power  
-    Paramete fine-tuning: used a range of tree depths and corss-validation to determine optimal tree size
+    Parameter fine-tuning: used a range of tree depths and cross-validation to determine optimal tree size
     Model Training: decision trees with 25 engineered features
     Evaluation: scores, scatter plots, and loops
 
@@ -56,7 +56,7 @@ pip install -r requirements.txt
 ```
  3. Launch Jupyter Notebook:
 ``` bash
-jupyter notebook car-price-prediction-ml.ipynb
+jupyter notebook flags-continent-prediction-ml.ipynb
 ```
 
 ## 📁 File Structure
@@ -81,4 +81,4 @@ The model takes multiple features as input and predicts the expected flag's cont
     Implement ensemble methods (Random Forest, XGBoost)
     
 ## 📈 Model Performance
-The maximum the score we were are able to achieve was 0.692, which is better than a random guess, that would have an accuracy of 1/6.
+The maximum the score we were are able to achieve was 0.692, which is much better than a random guess, that would have an accuracy of 1/6.
